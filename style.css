@@ -1,2 +1,15 @@
 .borders {border:2px solid green;}
 
+div.jumbotron {background-color: fff;}
+
+.jumbotron {background: url(backg.jpg) no-repeat 50%;
+background-color: fff;}
+
+.jumbotron h1 {color: #D141C5;}
+
+.vkposition {float: right;
+margin-right: -150px}
+
+.btn-primary {background-color:#5E81A8!important;
+border-color: #5E81A8!important;
+margin-left: 15px }
