@@ -1,0 +1,71 @@
+.ecwid div {background-color: #fff;}
+
+.div.ecwid-minicart{
+background: #fbb821;
+width: 300px;
+height: 35px;
+border: 0;
+border-radius: 0;
+float: right;}
+
+
+.div.ecwid-minicart-counter {
+background-color: transparent;
+border: 0;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+font-size: 100%;
+float: none;
+letter-spacing: normal;
+margin: 0;
+outline: 0;
+padding: 0;
+position: static;
+text-transform: none;
+z-index: auto;}
+
+
+
+
+
+
+.div.ecwid-minicart-clickArea {
+background: url("https://ru-mi.com/catalog/view/theme/lexus_nextstore/image/header_icon_cart.png") no-repeat;
+position: absolute;
+top: 5px;
+right: 148px;
+width: 40px;
+height: 30px;
+cursor: pointer;
+zoom: 1;
+}
+
+
+.div.ecwid-minicart{
+background: #EEAF00;
+width: 300px;
+height: 35px;
+border: 0;
+border-radius: 0;
+text-align: center;
+display: inline-block;
+z-index: 50;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+overflow: hidden;
+float: right;}
+
+
+
+
+.div.ecwid-minicart-link{
+position: relative;
+left: 153px;
+top: 5px;
+width: 60px;
+text-align: center;
+font-size: 16px;}
+
+.ecwid-minicart-label, .ecwid-minicart-label-text {display:none;}
