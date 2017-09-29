@@ -12,7 +12,7 @@ project folder
 
 <div class="container">
 <table class="tftable" border="1">
-<tr><th>Header 1</th><th>Header 2</th><th>Header 3</th></tr>
+<tr><th>ToDo</th><th>On work</th><th>Done!</th></tr>
 <tr><td> </td><td> </td><td> </td></tr>
 <tr><td> </td><td> </td><td> </td></tr>
 <tr><td> </td><td> </td><td> </td></tr>
