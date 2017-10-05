@@ -358,7 +358,7 @@ p.img_main2 img {
     min-width: 300px;
 }
 p.img_main4 img {
-    width: 32% !important;	
+    width: 32% !important;
     margin-right: 20px;
     height: auto !important;
     min-width: 300px;
@@ -771,7 +771,7 @@ button[type="submit"]:hover, button[type="submit"]:active, button[type="submit"]
 #contacts_error{
 	display:none;
 }
-button[type="submit"] 
+button[type="submit"]
 {
     display: block;
     width: 147px;
@@ -1917,7 +1917,7 @@ footer {
 }
 }
 @media (max-width: 933px){
-   .adress_mail {
+   . {
     min-width: 295px;
 }
     .footer_cont {
@@ -2467,7 +2467,7 @@ a.href_slide p {
     .gallery_text p {
     min-height: 72px;
 }
-    
+
 }
 @media (max-width: 567px){
 	.logo > img {
@@ -3574,7 +3574,7 @@ p.shares {
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     width: 77%;
-    text-align: center;	
+    text-align: center;
     transition: .4s;
 }
 .blur_gallery > div > h5 {
@@ -4261,7 +4261,7 @@ a.btn_mob_nav {
     .gallery_text p {
     min-height: 72px;
 }
-    
+
 }
 @media (max-width:541px){
     .footer_cont > div {
@@ -4427,7 +4427,7 @@ div.mob_ico_tel {
     padding: 0 23px !important;
     height: auto;
 }
-    
+
     footer {
     background: #403b36;
     width: 100%;
