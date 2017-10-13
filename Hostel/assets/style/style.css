@@ -415,10 +415,7 @@ ul.mob_nav > p a {
     margin: 5px 0;
 }
 
-.active_nav {
-	border-bottom: 1px solid #1d4e64 !important;
-    color: #1d4e64 !important;
-}
+
 
 
 
@@ -955,9 +952,7 @@ input#nomera, input#vzroslie, input#deti {
     margin-top: 27px;
     margin-right: 0;
 }
-.cont_block1{
-    width: 100%;
-}
+
 .cont_dop_text {
     max-width: 1220px;
     margin: 0 auto;
@@ -2965,10 +2960,7 @@ input#nomera, input#vzroslie, input#deti {
     margin-top: 27px;
     margin-right: 0;
 }
-.cont_block1 {
-    background: #ffffff;
-    width: 100%;
-}
+
 .block1 {
     max-width: 1220px;
     margin: 0 auto;
@@ -4547,4 +4539,8 @@ div.mob_ico_tel {
     float: none;
     display: block;
 }
-}
+
+
+ div.col-md-4.col-sm-4 {margin-top: 35px;}
+
+ div.col-md-8.col-sm-8.col-xs-12.text-center.pull-left {margin: 35px 0;}
