@@ -233,40 +233,10 @@
       </div>
 
       <!-- todo сделать форму заказа, интегрировать через букинг, а после - создать свою. можно закомментить существующую, чтобы потом использовать в кач-ве шаблона -->
-      <form action="http://z-hostel.com/ru/booking" method="get" id="booking" accept-charset="utf-8">
-        <div class="booking">
-          <div class="booking_cont">
-            <div class="input_booking">
-              <label for="date1">Дата приезда</label>
-              <input id="date1" type="text" name="from" value="">
-            </div>
-            <div class="input_booking">
-              <label for="date2">Дата выезда</label>
-              <input id="date2" type="text" name="to" value="">
-            </div>
-            <div class="input_booking">
-              <label for="nomera">Номера</label>
-              <input type="text" id="nomera" name="quantity" value="1">
-              <span class="incr-btn plus"><i class="fa fa-angle-up btn_up" aria-hidden="true"></i></span>
-              <span class="incr-btn minus"><i class="fa fa-angle-down btn_down" aria-hidden="true"></i></span>
-            </div>
-            <div class="input_booking">
-              <label for="vzroslie">Взрослые</label>
-              <input type="text" id="vzroslie" name="adult" value="1">
-              <span class="incr-btn plus"><i class="fa fa-angle-up btn_up" aria-hidden="true"></i></span>
-              <span class="incr-btn minus"><i class="fa fa-angle-down btn_down" aria-hidden="true"></i></span>
-            </div>
-            <div class="input_booking">
-              <label for="deti">Дети</label>
-              <input type="text" id="deti" name="children" value="0">
-              <span class="incr-btn plus"><i class="fa fa-angle-up btn_up" aria-hidden="true"></i></span>
-              <span class="incr-btn minus"><i class="fa fa-angle-down btn_down" aria-hidden="true"></i></span>
-            </div>
-            <div class="input_booking"><a href="ru.html" onclick="$('#booking').submit();return false;">Забронировать</a></div>
-            <div class="clearfix"></div>
-          </div>
-        </div>
-      </form>
+
+
+
+    <br>
 
       <strong class="h-home-z">А САМОЕ ГЛАВНОЕ &ndash; АТМОСФЕРА УЮТА, ДОБРОЖЕЛАТЕЛЬНОСТЬ И ВНИМАНИЯ КАЖДОМУ ГОСТЮ </strong></div>
 
@@ -391,12 +361,8 @@
 
 
 
-  <!-- Здесь блок 3 начинается буду его обрабатывать-->-->
+  <!-- Здесь блок 3 начинается буду его обрабатывать-->
   <div class="cont_block3">
-
-
-
-
     <div class="block3">
       <div class="col-md-5 col-sm-5  col-xs-5 maps_index">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9681.066243015337!2d59.5348826!3d52.6551627!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ee4ca958881dbbc!2z0KXQvtGB0YLQtdC7INCQ0KDQmtCQ0JjQnA!5e0!3m2!1sru!2sru!4v1506454311240" frameborder="0"
@@ -431,31 +397,36 @@
   <hr>
 
 
-  <div class="cont widget_social clearfix">
+  <div class="container">
     <!-- VK Widget -->
-    <div id="vk_groups"></div>
-    <script type="text/javascript">
-      VK.Widgets.Group("vk_groups", {
-        mode: 3,
-        width: "310"
-      }, 133762784);
-    </script>
+    <div class="row">
+      <div class="col-md-8">
+        <script type="text/javascript" src="//vk.com/js/api/openapi.js?150"></script>
 
-    <div class="fb_widget">
-      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fzhostelkyiv&amp;tabs=timeline&amp;width=340&amp;height=500&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId"
-        style="border:none;overflow:hidden" scrolling="no" allowtransparency="true" height="186" frameborder="0"></iframe>
-    </div>
-    <div class="new_block">
-      <!-- LightWidget WIDGET -->
-      <script src="http://lightwidget.com/widgets/lightwidget.js"></script><iframe src="http://lightwidget.com/widgets/d068f522fd6d5234a0e5429a5e8a3651.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0px none; overflow: hidden; height: 183px;"></iframe>
-    </div>
+<!-- VK Widget -->
+<div id="vk_groups"></div>
+<script type="text/javascript">
+VK.Widgets.Group("vk_groups", {mode: 3, no_cover: 1}, 149353472);
+</script>
+</div>
+<div class="col-md-2 float-right">
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?150"></script>
+
+<!-- VK Widget -->
+<div id="vk_contact_us"></div>
+<script type="text/javascript">
+VK.Widgets.ContactUs("vk_contact_us", {height: 30}, -149353472);
+</script>
+</div>
+  </div>
+
   </div>
 
 
   <!-- todo сделать футер, убрать ссылки на соцсети, которых нет, добавить, которые есть, букинг, например -->
   <footer>
     <div class="footer_cont">
-      <!--
+
         <div class="col-md-3 col-sm-3 col-xs-3 menu_foot">
                                                 <a  href="http://z-hostel.com/ru/page/bronirovanie">Бронирование</a>
                                     <a  href="/rooms">Номера и цены</a>
@@ -463,7 +434,7 @@
                                     <a  href="http://z-hostel.com/ru/page/dosug">Досуг</a>
                                     <a  href="/feedback">Отзывы</a>
                                     </div>
-		-->
+
       <div class="col-md-4 col-sm-4 col-xs-4 adress_foot">
         <p>Адрес:</p>
         <a href="ru/contacts.html">Поселок Александровский ул.Центральная, д.11, кв.2</a>
@@ -521,16 +492,7 @@
   <script src="assets/common.js"></script>
 
 
-  <!-- СКРИПТ ОБРАТНОГО ЗВОНКА
 
-<script type="text/javascript">
- (function(d, w, s) {
-var widgetHash = '80hOsdpcRx', gcw = d.createElement(s); gcw.type = 'text/javascript'; gcw.async = true;
-gcw.src = '//widgets.binotel.com/getcall/widgets/'+ widgetHash +'.js';
-var sn = d.getElementsByTagName(s)[0]; sn.parentNode.insertBefore(gcw, sn);
- })(document, window, 'script');
-
-</script>  -->
 </body>
 
 </html>
