@@ -615,7 +615,7 @@ select.ui-datepicker-month {
     width: 13%;
 }
 .col-md-6.col-sm-6.col-xs-6.tel_menu_cont {
-    width: 62%;
+    width: auto;
 }
 .col-md-4.col-sm-4.col-xs-4.adress_mail {
     width: 25%;
